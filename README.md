@@ -1,4 +1,4 @@
-both K6 and JMeter are powerful tools for load testing, they differ in terms of scripting language, configuration, flexibility, and learning curve. 
+Both K6 and JMeter are powerful tools for load testing, they differ in terms of scripting language, configuration, flexibility, and learning curve. 
 K6 may be preferred for its simplicity, flexibility, and programmability, especially for developers already familiar with JavaScript, while JMeter offers a comprehensive GUI interface and extensive reporting capabilities. 
 
 | Feature                 | K6                                            | JMeter                                        |
@@ -11,3 +11,12 @@ K6 may be preferred for its simplicity, flexibility, and programmability, especi
 | Learning Curve          | Relatively low for JavaScript developers      | Steeper learning curve for XML and GUI        |
 | Execution Environment   | CLI, CI integration                           | GUI, CLI                                      |
 | Reporting and Analysis  | Basic reporting                               | Extensive reporting, graphical charts, plugins|
+
+
+
+To run the Scripts;
+Switch to the \K6_test\Search_API folder.
+Then run below jobs.
+
+ k6  run '.\cmdm_search_api_shipto.js'
+  k6  run '.\cmdm_search_api_billto.js'
